@@ -1,0 +1,9 @@
+<action name="showAjaxLoginForm">
+   <result>/pages/ajaxlogin.jsp</result>
+</action>
+
+<action name="ajaxLogin" class="net.roseindia.Login">
+   <result name="input">/pages/ajaxlogin.jsp</result>
+   <result name="error">/pages/ajaxlogin.jsp</result>
+   <result>/pages/ajaxloginsuccess.jsp</result>
+</action>
